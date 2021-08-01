@@ -45,6 +45,7 @@
   
   /*REPEATED GRADIENT*/
   --gradRepeat: repeating-linear-gradient(red, green 10%, blue 20%);
+  --gradRepeatToRight: repeating-linear-gradient(to right, red, green 10%, blue 20%);
   
 
   background-image: var(--background);
@@ -58,14 +59,19 @@
   box-sizing: border-box;
   margin: 5px;
   padding: 5px;
-  border: 2px solid lavender;
+  //border: 2px solid lavender;
   border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .container {
   padding: 5px;
   margin: 5px;
-  border: 2px solid yellow;
+  //border: 2px solid yellow;
 }
 
 /* GRADIENTS */
@@ -376,5 +382,14 @@
   border: 2px solid #555555;
   border-radius: 14px;
   background-image: var(--gradRepeat);  
+  display: inline-block;
+}
+
+#gradRepeatToRight{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradRepeatToRight);  
   display: inline-block;
 }
