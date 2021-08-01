@@ -1,0 +1,381 @@
+:root {
+  /*VARIABLES*/
+  --background: linear-gradient(to bottom, DarkSlateGray, black);
+  --rgb: red, green, blue;
+  --gradient: linear-gradient(red, green, blue);
+  --gradToRight: linear-gradient(to right, red, green, blue);
+  --gradToBottom: linear-gradient(to bottom, red, green, blue); /*Default Value = 180deg*/
+  --gradToBottomRight: linear-gradient(to bottom right, red, green, blue);
+  --gradToBottomLeft: linear-gradient(to bottom left, red, green, blue);
+  
+  /*GRADIENT ANGLE*/
+  --grad360deg: linear-gradient(360deg, red, green, blue);
+  --grad15deg: linear-gradient(15deg, red, green, blue);
+  --grad30deg: linear-gradient(30deg, red, green, blue);
+  --grad45deg: linear-gradient(45deg, red, green, blue);
+  --grad60deg: linear-gradient(60deg, red, green, blue);
+  --grad75deg: linear-gradient(75deg, red, green, blue);
+  --grad90deg: linear-gradient(90deg, red, green, blue);
+  --grad105deg: linear-gradient(105deg, red, green, blue);
+  --grad120deg: linear-gradient(120deg, red, green, blue);
+  --grad135deg: linear-gradient(135deg, red, green, blue);
+  --grad150deg: linear-gradient(150deg, red, green, blue);
+  --grad165deg: linear-gradient(165deg, red, green, blue);
+  --grad180deg: linear-gradient(180deg, red, green, blue);
+  --grad195deg: linear-gradient(195deg, red, green, blue);
+  --grad210deg: linear-gradient(210deg, red, green, blue);
+  --grad225deg: linear-gradient(225deg, red, green, blue);
+  --grad240deg: linear-gradient(240deg, red, green, blue);
+  --grad255deg: linear-gradient(255deg, red, green, blue);
+  --grad270deg: linear-gradient(270deg, red, green, blue);
+  --grad285deg: linear-gradient(285deg, red, green, blue);
+  --grad300deg: linear-gradient(300deg, red, green, blue);
+  --grad315deg: linear-gradient(315deg, red, green, blue);
+  --grad330deg: linear-gradient(330deg, red, green, blue);
+  --grad345deg: linear-gradient(345deg, red, green, blue);
+  --grad360deg: linear-gradient(360deg, red, green, blue);
+  
+  /*GRADIENT TRANSPARENCY*/
+  --gradTransToRight: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  --gradTransToLeft: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+  --gradTransToBottomRight: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(255,0,0,1));
+  --gradTransToBottomLeft: linear-gradient(to bottom left, rgba(255,0,0,0), rgba(255,0,0,1));
+  
+  /*REPEATED GRADIENT*/
+  --gradRepeat: repeating-linear-gradient(red, green 10%, blue 20%);
+  
+
+  background-image: var(--background);
+  text-align: center;
+  color: white;
+
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid lavender;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid yellow;
+}
+
+/* GRADIENTS */
+#gradient{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradToBottom);  
+  display: inline-block;
+}
+
+#gradient1{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradToRight);  
+  display: inline-block;
+}
+
+#gradient2{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradToBottomRight);  
+  display: inline-block;
+}
+
+#gradient3{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradToBottomLeft);  
+  display: inline-block;
+}
+
+/*ANGLE*/
+
+#gradient0{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad0deg);  
+  display: inline-block;
+}
+
+#gradient15{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad15deg);  
+  display: inline-block;
+}
+
+#gradient30{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad30deg);  
+  display: inline-block;
+}
+
+#gradient45{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad45deg);  
+  display: inline-block;
+}
+
+#gradient60{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad60deg);  
+  display: inline-block;
+}
+
+#gradient75{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad75deg);  
+  display: inline-block;
+}
+
+#gradient90{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad90deg);  
+  display: inline-block;
+}
+
+#gradient105{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad105deg);  
+  display: inline-block;
+}
+
+#gradient120{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad120deg);  
+  display: inline-block;
+}
+
+#gradient135{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad135deg);  
+  display: inline-block;
+}
+
+#gradient150{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad150deg);  
+  display: inline-block;
+}
+
+#gradient165{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad165deg);  
+  display: inline-block;
+}
+
+#gradient180{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad180deg);  
+  display: inline-block;
+}
+
+#gradient195{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad195deg);  
+  display: inline-block;
+}
+
+#gradient210{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad210deg);  
+  display: inline-block;
+}
+
+#gradient225{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad225deg);  
+  display: inline-block;
+}
+
+#gradient240{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad240deg);  
+  display: inline-block;
+}
+
+#gradient255{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad255deg);  
+  display: inline-block;
+}
+
+#gradient270{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad270deg);  
+  display: inline-block;
+}
+
+#gradient285{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad285deg);  
+  display: inline-block;
+}
+
+#gradient300{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad300deg);  
+  display: inline-block;
+}
+
+#gradient315{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad315deg);  
+  display: inline-block;
+}
+
+#gradient330{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad330deg);  
+  display: inline-block;
+}
+
+#gradient345{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad345deg);  
+  display: inline-block;
+}
+
+#gradient360{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--grad360deg);  
+  display: inline-block;
+}
+
+/*TRANSPARENCY*/
+#gradTransToRight{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradTransToRight);  
+  display: inline-block;
+}
+
+#gradTransToLeft{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradTransToLeft);  
+  display: inline-block;
+}
+
+#gradTransToBottomRight{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradTransToBottomRight);  
+  display: inline-block;
+}
+
+#gradTransToBottomLeft{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradTransToBottomLeft);  
+  display: inline-block;
+}
+
+/*REPEATED GRADIENT*/
+#gradRepeat{
+  width: 250px;
+  height: 250px;
+  border: 2px solid #555555;
+  border-radius: 14px;
+  background-image: var(--gradRepeat);  
+  display: inline-block;
+}
+
+
+
